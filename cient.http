@@ -1,0 +1,14 @@
+###
+# @name create_notification
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "content": "Notification 02",
+  "category": "Social",
+  "recipientId": "f2dbe82f-4c68-49f0-8c45-1b6041762569"
+}
+
+###
+# @name list_notifications
+GET http://localhost:3000/notifications
